@@ -1,0 +1,29 @@
+
+
+ 
+
+    /*
+
+
+     height:100em;(enumarated value=3 time of the parent height)
+   height:100px;
+   height:20rem(root enomrated value)
+   width: 50vh;
+   main===vw,vh,%,em,Rem,px
+    websites:==> google fonts
+    5 type of font
+    1)serif--->will have some stroke at the end(dark at the end) ex :::(Times new roman)
+        2)sans-serif----->No stroke (ex:: Aril)
+    3)monospace----->same height (ex:Roboto)
+    4)cursive----->style slant letter (eg:::calibri)
+    5)fantasy---->not comes under above font then it is fantasy font/any caligraphic letter which are new
+    ==units are used to measur the size
+    ==px=px are the smallest unit
+    ==em=enumrated values---xtime of parent font
+    ==rem==root enumrated value-----x time the root of body foont size(by default 16px)
+    ==vw=viewport width==used to specify x%of visible width
+    ==vh:vieq height ==used to specify x%of visible heigt
+    ==%can also specify element using %
+    
+    
+    */

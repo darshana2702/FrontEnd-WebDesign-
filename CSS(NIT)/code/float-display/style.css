@@ -1,0 +1,59 @@
+body{
+    border: 5px;
+    border-style: double;
+    border-color: blueviolet;
+}
+h1{
+    color:brown;
+    
+}
+
+
+.parent img{
+    float: right;
+    
+}
+
+.main{
+    border: ;
+    border-style:dashed;
+    border-color:red ;
+    
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: right;
+    justify-content: left;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+}
+.box{
+    background-color: blue;
+    height: 50px;
+    width: 80px;
+    border-color: black;
+    border: 1px,solid;
+    color: white;
+    margin: 20px;
+    display: inline-block;
+
+
+    
+    
+}
+.box2{
+    
+ flex-grow: 3;
+ flex-shrink: 2;
+
+}

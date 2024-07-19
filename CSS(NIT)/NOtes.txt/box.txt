@@ -1,0 +1,16 @@
+Box model is consider as the heart of css,every element in webpage is consider as a box.A box contain 
+1)border==outline/outmost line of box/element
+eg::border:width type color;
+-- also specify border for left,right,top,buttom seprately
+--the corner radius can be given by border-radius:size;
+--you can also mention border top left radius,border top radius,borderbuttom radius,borderbuttom right radius
+
+2)padding== is the gap between border and content inside the Box
+--padding left/right/top/buttom canbe used for specific padding 
+--padding:size;(size will be given for all sides)
+--padding:size1 size2:  (size 1 given for top/buttom & size2 give for top &buttom)
+--padding:size1 size2 size3 size4;four side t,b,l,radius
+--there is a chance padding might increase actual height/width of  a box,to avoid it use box-sizing:border-box
+
+
+3)margin===it is similar to padding but it gives space outside the box

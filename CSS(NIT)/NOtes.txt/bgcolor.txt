@@ -1,0 +1,21 @@
+/* 1) hs=hue saturation(darkness)  -->   background-color: hs1(186,48%,41%);
+    2) Add extension from the google which is colour picker*
+    3) backgroung :linear -gradient(red,blue) use to mix the color we can add any number of color
+    
+    4)background-color: rgb(234, 30, 217,0.6);
+    5) background:linear-gradient(skyblue,violet);height: 100vh;
+    6) background:radial-gradient(rgb(218, 216, 217),blue);
+    height: 100vh;
+    7) websites:color picker,realtimecolor,color hunt;
+    8)background:radial-gradient(rgba(218, 216, 217),violet,blue); ---a stand for alpha range from 0.0 to 1.0) hsl(hue-degree(0 to 359),s staturstion (0 to 100% darkeness),1--lightness(0 to 100% light)
+    height: 100vh;
+    9) background color=rgb(0,0,0)
+    10)background can also be gradient ----->background:linear-gradient(color1,color2) ===show transition of color from color1 to color2
+    11)radial -gradient(color1,color2)----show transition from clor1 to color2 from carcular
+    11)minimal.galry award.com
+    12)backgroud img properly uses url and it need to be adjusted by following properties
+    13)background repeat:read-x/repeat,y/repeat/no repeat
+    14)background position :left/right/center/top/buttom
+    15)backgroundsize:cover/contain/auto
+    
+      */
