@@ -1,0 +1,17 @@
+*{
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+}
+.box{
+    background-color: skyblue;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+.box:nth-child(2){
+    background-color: red;
+}
+.main>p:nth-of-type(2){
+    background-color: green;
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.google.com/specimen/Montserrat');
+@import url('https://fonts.google.com/specimen/Fraunces');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    Weights: 500, 700
+    
+}
+.main{
+    width: 40vw;
+    height: 50vh;
+    border-radius: 50px;
+    display: flex;
+    
+
+}
+.left>img{
+    width:20vw;
+    height: 50vh;
+}
+.right{
+ background-color: hsl(0, 0%, 100%);
+padding: 30px 80px 40px 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 30px;
+}
+.right>h1{
+    font-family: "Fraunces", serif;
+    Weights: 700
+   
+}
+.stat>h3{
+    color: hsl(158, 36%, 37%);
+}
+.stat>h3>span{
+    color: black;
+
+}
+.button{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.right>h5{
+    text-transform: uppercase;
+    
+}

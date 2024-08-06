@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.light {
+    background-color:white;
+    height: 100px;
+    width: 100px;
+    margin: 3px;
+
+
+
+}
+
+.stand {
+    background-color: black;
+    height: 50vh;
+    width: 20px;
+    margin-top: 200px;
+    margin-left: 40px;
+    
+}
+
+/*.red:hover {
+    background-color: red;
+    transform: rotate(45deg);
+    transform: scale(-0.5);
+transform: skew(20deg);
+
+transform: translate(300px);
+}
+*/
+/*
+.red{
+    transition: transform 5s ease-in-out;
+    transition: all 5s ease-in-out;
+}
+.red:hover{
+    background-color: red;
+    border-radius: 50%;
+}
+.green{
+    transition: all 3s ease 5s;
+}
+.green:hover{
+    background-color: #00ff3c;
+    transform: scale(1.05);
+}
+.orange{
+    transition: all 5s ease;
+}
+.orange:hover{
+    background-color: yellow;
+    transform: rotate(45deg);
+}
+img{
+    filter: none;
+    transition: all 5s ease;
+}
+img:hover{
+    filter: none;
+}
+img:hover{
+    filter: blur(20px);
+    filter: brightness(20);
+    filter: contrast();
+    filter: hue-rotate(70deg);
+    filter: invert();
+    filter: sepia();
+}
+}
+    */
+    .red{
+    background-color: red;
+        animation:red-color 3s ease infinite ;
+        animation: left-slide 2s ease infinite;
+    }
+@keyframes red-color{
+    0%{
+        position: relative;
+        left: -2000px;
+    }
+    100%{
+        position: relative;
+        left: 0px;
+    }
+}
+
+@keyframes green-color{
+    0%{
+        position: absolute;
+        left: -2000px;
+    }
+    100%{
+        position: relative;
+        left: 0px;
+    }
+
+}
+.green{
+    background-color: green;
+    animation: green-color 3s ease-in-out 12s;
+    animation: left-slide 2s ease infinite;
+}
+
+@keyframes left-slide{
+    0%{
+        position: relative;
+        left: -2000px;
+    }
+    100%{
+        position: relative;
+        left: 0px;
+    }
+}
+.orange{
+    background-color: orange;
+    animation: orange-color 3s ease-in-out 12s;
+    animation: left-slide 2s ease infinite;
+}
+
