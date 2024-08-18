@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    background: linear-gradient(rgb(82, 4, 238),rgb(230, 226, 231));
+}
+#main{
+    background-color: white;
+    width: 50vw;
+    padding: 20px;
+    border-radius: 10px;
+}
+button{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    
+}

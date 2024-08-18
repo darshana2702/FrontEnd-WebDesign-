@@ -1,0 +1,19 @@
+.dark{
+    background-color: black;
+    color: white;
+}
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.input{
+    border: 1px solid black;
+}
+#int{
+    border: none;
+    
+}

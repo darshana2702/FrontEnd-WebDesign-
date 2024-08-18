@@ -1,0 +1,37 @@
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 30px;
+    background: linear-gradient(rgb(151, 230, 242),white,rgb(73, 89, 236));
+}
+.cartoon img{
+height: 300px;
+width: 250px;
+padding-left: 70px;
+padding-top: 40px;
+
+}
+.cartoon img:hover{
+    
+    border-radius: 20px;
+    border-color: rgb(241, 240, 243);
+    transition: 2s;
+    transform: scale(1.1);
+    
+    
+}
+h1{
+display: flex;
+justify-content: center;
+align-items: center;
+border-bottom-left-radius: 20px;
+border-top-right-radius: 20px;
+box-sizing: border-box;
+border: 20px;
+background-color: black;
+color: antiquewhite;
+
+}
+.cartoon h2{
+    padding-left: 150px;
+}
