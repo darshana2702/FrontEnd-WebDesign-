@@ -26,6 +26,9 @@ const displayData=(pokemon)=>
     const pokeName=document.createElement('h2')
     pokeName.textContent=pokemon.name;
     const height=document.createElement('p')
-    height.textContent=pokemon.height;
-
+    height.textContent="Height: "+pokemon.height;
+    const weight=document.createElement('p');
+    weight.textContent="Weight: " + pokemon.weight;
+    mainDiv.append(pokeImage,pokeName,height,weight)
+    
 }
