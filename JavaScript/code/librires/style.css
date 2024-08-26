@@ -1,0 +1,13 @@
+#myDiv{
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+}
+#btn{
+    height: 50px;
+    width: 70px;
+    color: white;
+    background-color: black;
+    font-weight: 50px;
+    border-radius: 10px;
+}

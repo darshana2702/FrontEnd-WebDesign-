@@ -23,9 +23,14 @@ body{
     font-size: 48px;
 }
 button{
-    height: 20px;
-    width: 100px;
+    height: 50px;
+    width: 20vw;
     border-radius: 20px;
     color: white;
     background-color: black;
+}
+#count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

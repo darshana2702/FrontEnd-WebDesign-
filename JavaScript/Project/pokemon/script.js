@@ -1,21 +1,16 @@
 const mainDiv=document.getElementById('main')
 const inputElement=document.getElementById('inp')
 const searchButton=document.getElementById('btn')
-const fetchData=async()=>
+const fetchData=async ()=>
 {
    // fetch(' https://pokeapi.co/api/v2/pokemon/${inputElement.value}')
     //.then((res)=>res.jsons())
     //.then((data)=>displayData(data))
     //.catch((err)=>console.log(err))
-   try{
-    const res=await fetch(' https://pokeapi.co/api/v2/pokemon/${inputElement.value}');
+   
+    const res=await fetch(`https://pokeapi.co/api/v2/pokemon/${inputElement.value}`);
     const data=await res.json();
     displayData(data)
-   }
-   catch(err){
-    console.log(err)
-   }
-   
 }
 searchButton.addEventListener('click',fetchData)
 const displayData=(pokemon)=>
